@@ -1,0 +1,103 @@
+.sendpseudo
+{
+	position: relative;
+	z-index: 1;
+}
+.sendpseudo::before
+{
+	content: "отправенное";
+	position: absolute;
+	z-index: 4;
+	background: #fff;
+	top: -14px;
+	left: 20px;
+	padding: 0 5px;
+	width: 105px;
+	height: 20px;
+	color: 2px;
+	border-radius: 2px;
+
+}.receivepseudo
+{
+	position: relative;
+	z-index: 1;
+}
+.receivepseudo::before
+{
+	content: "полученное";
+	position: absolute;
+	z-index: 4;
+	background: #fff;
+	top: 49px;
+	left: -152px;
+	padding: 0 5px;
+	width: 93px;
+	height: 20px;
+	color: 2px;
+	border-radius: 2px;
+
+}
+.mobilepseudo
+{
+	position: relative;
+	z-index: 1;
+}
+.mobilepseudo::before
+{
+	content: "номер телефона";
+	position: absolute;
+	z-index: 4;
+	background: #fff;
+	top: -14px;
+	left: 20px;
+	padding: 0 5px;
+	width: 135px;
+	height: 20px;
+	color: 2px;
+	border-radius: 2px;
+}
+.mobpricpseudo
+{
+	position: relative;
+	z-index: 1;
+}
+.mobpricpseudo::before
+{
+	content: "сумма";
+	position: absolute;
+	z-index: 4;
+	background: #fff;
+	top: 49px;
+	left: -152px;
+	padding: 0 5px;
+	width: 55px;
+	height: 20px;
+	color: 2px;
+	border-radius: 2px;
+
+}
+.btn-martop
+{
+	margin-top: 22px;
+}
+.bg-secondarypro
+{
+	background-image: linear-gradient(to bottom right,#4d8cf6,#E91E63);
+}
+.send-item
+{
+	margin-left: 66px;
+}
+
+.footer
+{
+	background: #E91E63;
+	width: 100vw;
+}
+.bg-middle
+{
+	/*background: #9550a4;*/
+	background: #f8f9fa;
+	height: 20px;
+
+}
